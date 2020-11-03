@@ -14,6 +14,6 @@ Extend your config in the `.eslintrc.json` file:
 
 ```json
 {
-  "extends": ["holomua"]
+  "extends": ["b2broker"]
 }
 ```
