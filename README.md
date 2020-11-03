@@ -5,7 +5,7 @@ Shareable ESLint config.
 ## Installation
 
 ```bash
-npm install eslint-config-b2broker
+npm install --save-dev eslint-config-b2broker
 ```
 
 ### Usage
