@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-b2broker",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config",
+  "main": "index.js",
+  "type": "commonjs",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=14.15.0",
+    "npm": ">=6.14.8"
+  },
+  "scripts": {
+    "commitlint": "commitlint --verbose",
+    "commitlint:all": "npm run commitlint -- --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
+    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier -c .",
+    "prettier:write": "npm run prettier -- --write",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b2broker/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint",
+    "config",
+    "b2broker"
+  ],
+  "author": "Sergey Bakulin <sbakulin@b2broker.net>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/b2broker/eslint-config/issues"
+  },
+  "homepage": "https://github.com/b2broker/eslint-config#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^11.0.0",
+    "@octokit/core": "^3.2.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "commitlint": "^11.0.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.1.2",
+    "semantic-release": "^17.2.2"
+  },
+  "dependencies": {
+    "eslint": "^7.12.1"
+  }
+}
