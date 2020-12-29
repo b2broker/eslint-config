@@ -44,6 +44,6 @@
     "semantic-release": "^17.3.0"
   },
   "dependencies": {
-    "eslint": "^7.12.1"
+    "eslint": "^7.16.0"
   }
 }
