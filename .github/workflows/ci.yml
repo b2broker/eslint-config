@@ -25,8 +25,8 @@ jobs:
       - name: commitlint
         run: npm run commitlint:all
 
-      - name: Pack
-        run: npm pack --dry-run
+      - name: Publish
+        run: npm publish --dry-run
 
       - name: Decrypt PGP key
         run: ./.github/scripts/decrypt.sh
