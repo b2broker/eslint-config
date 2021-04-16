@@ -15,9 +15,7 @@
     "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
     "lint": "eslint --ext .js ./",
     "lint:fix": "npm run lint -- --fix",
-    "postinstall": "husky install",
-    "postpublish": "pinst --enable",
-    "prepublishOnly": "pinst --disable",
+    "prepare": "husky install",
     "prettier": "prettier -c .",
     "prettier:write": "npm run prettier -- --write",
     "release": "semantic-release"
@@ -41,13 +39,12 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "commitlint-config-b2broker": "^1.0.2",
-    "husky": "^5.0.9",
+    "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
-    "pinst": "^2.1.6",
     "prettier": "^2.2.1",
-    "semantic-release": "^17.4.0"
+    "semantic-release": "^17.4.2"
   },
   "dependencies": {
-    "eslint": "^7.21.0"
+    "eslint": "^7.24.0"
   }
 }
