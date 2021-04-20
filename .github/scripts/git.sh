@@ -1,12 +1,6 @@
 #!/bin/bash
 set -e
 
-# Set git user name
-git config user.name ${GIT_COMMITTER_NAME}
-
-# Set git user email
-git config user.email ${GIT_COMMITTER_EMAIL}
-
 # Set pgp siging key
 git config user.signingkey ${PGP_KEY_ID}
 
