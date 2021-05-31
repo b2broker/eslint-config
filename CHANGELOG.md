@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.0.5](https://github.com/b2broker/eslint-config/compare/v1.0.4...v1.0.5) (2021-05-31)
+
+### Dependencies
+
+- upgrade `eslint` to `v7.27.0` ([feff1c7](https://github.com/b2broker/eslint-config/commit/feff1c710a25524e5441d3f7e613a7a33f69e59b))
+
 ### [1.0.4](https://github.com/b2broker/eslint-config/compare/v1.0.3...v1.0.4) (2021-04-20)
 
 ### Dependencies
