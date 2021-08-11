@@ -6,14 +6,14 @@
   "type": "commonjs",
   "types": "index.d.ts",
   "engines": {
-    "node": ">=14.15.0",
-    "npm": ">=6.14.8"
+    "node": ">=16.6.1",
+    "npm": ">=7.20.3"
   },
   "scripts": {
     "commitlint": "commitlint --verbose",
     "commitlint:all": "npm run commitlint -- --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
     "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
-    "lint": "eslint --ext .js ./",
+    "lint": "eslint ./",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install",
     "prettier": "prettier -c .",
@@ -38,13 +38,13 @@
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "commitlint-config-b2broker": "^1.0.3",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.3.0",
-    "semantic-release": "^17.4.3"
+    "commitlint-config-b2broker": "^1.0.4",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "semantic-release": "^17.4.4"
   },
-  "dependencies": {
-    "eslint": "^7.27.0"
+  "peerDependencies": {
+    "eslint": "^7.32.0"
   }
 }

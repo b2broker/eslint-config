@@ -5,6 +5,7 @@ declare const _default: {
     node: true;
   };
   rules: {
+    "no-console": "warn";
     "no-loss-of-precision": "error";
     "no-promise-executor-return": "error";
     "no-template-curly-in-string": "warn";

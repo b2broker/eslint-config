@@ -13,7 +13,5 @@ npm install --save-dev eslint-config-b2broker
 Extend your config in the `.eslintrc.json` file:
 
 ```json
-{
-  "extends": ["b2broker"]
-}
+{ "extends": ["b2broker"] }
 ```
