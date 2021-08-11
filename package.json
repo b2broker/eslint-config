@@ -44,7 +44,7 @@
     "prettier": "^2.3.2",
     "semantic-release": "^17.4.4"
   },
-  "dependencies": {
-    "eslint": "^7.27.0"
+  "peerDependencies": {
+    "eslint": "^7.32.0"
   }
 }
