@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.0](https://github.com/b2broker/eslint-config/compare/v1.0.5...v1.1.0) (2021-08-11)
+
+### Features
+
+- add the `no-console` rule ([82fbfa7](https://github.com/b2broker/eslint-config/commit/82fbfa7dfcf03ce1a87f8752fc98789a4b2798c4))
+
+### Dependencies
+
+- move `eslint` to `peerDependencies` ([7174ecd](https://github.com/b2broker/eslint-config/commit/7174ecd7b9da5cb80ea3e578047c2f699fe198bb))
+
 ### [1.0.5](https://github.com/b2broker/eslint-config/compare/v1.0.4...v1.0.5) (2021-05-31)
 
 ### Dependencies
