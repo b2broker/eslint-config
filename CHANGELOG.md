@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.0](https://github.com/b2broker/eslint-config/compare/v1.1.0...v2.0.0) (2021-11-08)
+
+### ⚠ BREAKING CHANGES
+
+- upgrade `eslint` to `v8.2.0`
+
+### peerDependencies
+
+- upgrade `eslint` to `v8.2.0` ([8172c2f](https://github.com/b2broker/eslint-config/commit/8172c2fca5bde265f2bef781af23147ad938bf6c))
+
 ## [1.1.0](https://github.com/b2broker/eslint-config/compare/v1.0.5...v1.1.0) (2021-08-11)
 
 ### Features
