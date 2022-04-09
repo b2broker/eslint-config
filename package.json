@@ -38,11 +38,11 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "commitlint-config-b2broker": "^1.0.5",
+    "commitlint-config-b2broker": "^1.0.6",
     "husky": "^7.0.4",
-    "lint-staged": "^11.2.6",
-    "prettier": "^2.4.1",
-    "semantic-release": "^18.0.0"
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.2",
+    "semantic-release": "^19.0.2"
   },
   "peerDependencies": {
     "eslint": "^8.2.0"
