@@ -45,6 +45,6 @@
     "semantic-release": "^19.0.2"
   },
   "peerDependencies": {
-    "eslint": "^8.2.0"
+    "eslint": "^8.13.0"
   }
 }
