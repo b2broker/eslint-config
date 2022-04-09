@@ -1,5 +1,11 @@
 # Changelog
 
+### [2.0.1](https://github.com/b2broker/eslint-config/compare/v2.0.0...v2.0.1) (2022-04-09)
+
+### Performance Improvements
+
+- drop Node.js `<16.14.2` support ([6516e12](https://github.com/b2broker/eslint-config/commit/6516e122eed0d520803c57f2a742e9dd3db84425))
+
 ## [2.0.0](https://github.com/b2broker/eslint-config/compare/v1.1.0...v2.0.0) (2021-11-08)
 
 ### ⚠ BREAKING CHANGES
